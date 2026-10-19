@@ -1,0 +1,48 @@
+{
+    "name": "clskayyo/br-validators",
+    "description": "Validação e formatação de documentos brasileiros (CPF, CNPJ numérico e alfanumérico) sem dependências.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["cpf", "cnpj", "validation", "validator", "brasil", "brazil", "documentos"],
+    "authors": [
+        {
+            "name": "Caio Lucas",
+            "email": "clsdraco@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CLSKayyo\\BrValidators\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CLSKayyo\\BrValidators\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse",
+        "check": [
+            "@test",
+            "@analyse"
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Roda a suíte do PHPUnit.",
+        "analyse": "Roda o PHPStan (level max).",
+        "check": "Roda testes e análise estática."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
