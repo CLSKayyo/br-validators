@@ -1,9 +1,9 @@
 {
     "name": "clskayyo/br-validators",
-    "description": "Validação e formatação de documentos brasileiros (CPF, CNPJ numérico e alfanumérico) sem dependências.",
+    "description": "Validação de documentos brasileiros (CPF, CNPJ numérico e alfanumérico, CEP e CNH) sem dependências.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["cpf", "cnpj", "validation", "validator", "brasil", "brazil", "documentos"],
+    "keywords": ["cpf", "cnpj", "cep", "cnh", "validation", "validator", "brasil", "brazil", "documentos"],
     "authors": [
         {
             "name": "Caio Lucas",
